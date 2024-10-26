@@ -13,7 +13,7 @@ ConnectDb();
 
 
 const corsOptions = {
-    origin: process.env.NODE_ENV === 'production' ? 'https://your-production-frontend-url.com' : 'http://localhost:5173',
+    origin:  'http://localhost:5173',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 };
